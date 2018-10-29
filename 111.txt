@@ -1,0 +1,13 @@
+- 类视图
+- mysql存储表数据
+- django用户认证
+- celery异步任务队列+redis充当broker实现异步发送注册激活邮件
+- 使用itsdangerous加密用户的身份信息
+- redis存储session，历史浏览记录，购物车商品
+- mysql+FastDFS分布式文件系统+nginx存储商品图片
+- nginx+celery实现页面静态化
+- haystack全文搜索框架+whoosh搜索引擎+jieba分词模块实现搜索商品关键字
+- mysql事务+乐观锁实现订单并发问题
+- 对接支付宝平台实现付款
+- uwsgi+nginx+django实现项目部署
+- nginx搭建负载均衡服务器实现负载均衡
